@@ -1,0 +1,77 @@
+
+
+@media only screen and (max-width: 1200px) {
+
+
+}
+@media only screen and (max-width: 992px) {
+        
+    .basic-h1 {
+        margin-top: 50px;
+    }
+    .basic-h2 {
+        margin-top: 30px;
+        text-align: center; 
+    }
+    .header__li {
+        padding: .2rem .7rem;
+    }
+    .first-bk {
+        max-height: 1200px;
+    }
+    .owl-next {
+        left: 95%;
+    }
+    .owl-prev {
+        right: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header__menu {
+        display: none;
+    }
+    .header__logo  {
+        width: 90% !important;
+    }
+    .bars {
+        display: block;
+    }
+    .mob-menu .nav {
+        flex-direction: column;
+        color: $white !important;
+        .basic-link {
+            color: $white !important;
+        }
+    }
+
+    .footer__basic-h2 {
+        font-size: (25rem / 15);
+        margin-top: 20px;
+    }
+    .footer-address, .footer-link {
+        font-size: (15rem / 15);
+    }
+
+
+}
+
+
+@media only screen and (max-width: 376px) {
+    
+    .card-number {
+        width: 100%;
+    }
+    .owl-next {
+        left: 90%;
+    }
+    .owl-prev {
+        right: 90%;
+    }
+    .card-number_text {
+        font-size: 1rem;
+    }
+
+    
+}
